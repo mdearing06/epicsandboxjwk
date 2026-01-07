@@ -1,16 +1,10 @@
 {
   "keys": [
     {
-      "alg": "RS256",
-      "e": "AQAB",
-      "ext": true,
-      "key_ops": [
-        "verify"
-      ],
       "kty": "RSA",
+      "e": "AQAB",
+      "kid": "mykey1"
       "n": "0mx_FEHaJ1v0osfuhkV1Go3lsOfRl6JqB5KlvLD0V-iGL48huVMuitZLHzxGUsgb3MzY2-i5E-jn0Au9NgiIBmokVzbepT8kRa5_aoZvATG83QKfE2fIaD3A8tmpDwZtmDvPkCQ13LnsABJ-oBpH6PkVg7aQ6GwMgirMVft1yEks7sOM0JV7L5tV8H4xl4ZHKLZQA9wGZJUGCHfgiC7-GYIugp-3DEkPC9C0FtaBBm-o4xSpNIMTR_QC_tQGeqz736mbdr-xd1UZiROwYqxVOrW5n5agdEeNSzKuRB2XJqiDTw0JhqZki8YNbRIB2civ3QxW1s_xDwPiQ7EUBtgYow",
-      "kid": "abGW4FQKxW1LOEmMKeyfi+zeaDMUVWmQXtVEdEa8+2Y=",
-      "use": "sig"
     }
   ]
 }
