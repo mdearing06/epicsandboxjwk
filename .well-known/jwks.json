@@ -1,10 +1,16 @@
 {
   "keys": [
     {
-      "kty": "RSA",
+      "alg": "RS256",
       "e": "AQAB",
+      "ext": true,
+      "key_ops": [
+        "verify"
+      ],
+      "kty": "RSA",
+      "n": "j29tlEDrohomygQUAke_FyU7kdTdNX6xplwgc45JjcMCuhcbuh_L_Vh0Q68SbJoU3iGWeEw8TZJwVlvPliOhwwsQQ_5Nlw8gPqDSfMNdomLG8j8TfKfle2WfeY0d_udEOqK_6uGrLgsPLN8zB4XUXNjpo1JpEIs3eJjYvMqfLYCB5PApzN2fpCvNafxU27k8RJXNVE3UR2Kb-vug6gaQdd5PHRexl87BmRderGrWaHVSCYibpBIMo-l7tIYvI0GMTawL0T7tncA8IhZvE4gbAOacaT4v6347-LbuvPbj3ugjHfSh7hJG-tHdA9iduI0iVnU8eQ8GPKLXxmiGRTBFDQ",
       "kid": "mykey1",
-      "n": "0mx_FEHaJ1v0osfuhkV1Go3lsOfRl6JqB5KlvLD0V-iGL48huVMuitZLHzxGUsgb3MzY2-i5E-jn0Au9NgiIBmokVzbepT8kRa5_aoZvATG83QKfE2fIaD3A8tmpDwZtmDvPkCQ13LnsABJ-oBpH6PkVg7aQ6GwMgirMVft1yEks7sOM0JV7L5tV8H4xl4ZHKLZQA9wGZJUGCHfgiC7-GYIugp-3DEkPC9C0FtaBBm-o4xSpNIMTR_QC_tQGeqz736mbdr-xd1UZiROwYqxVOrW5n5agdEeNSzKuRB2XJqiDTw0JhqZki8YNbRIB2civ3QxW1s_xDwPiQ7EUBtgYow",
+      "use": "sig"
     }
   ]
 }
